@@ -19,8 +19,8 @@ public class EmployeePayrollData {
 		this(id, name, salary);
 		this.startDate = startDate;
 	}
-        
-        public int getId() {
+
+	public int getId() {
 		return id;
 	}
 
@@ -51,8 +51,8 @@ public class EmployeePayrollData {
 	public void setStartDate(LocalDate startDate) {
 		this.startDate = startDate;
 	}
-      
-        @Override
+
+	@Override
 	public boolean equals(Object obj) {
 		if (this == obj)
 			return true;
@@ -76,8 +76,6 @@ public class EmployeePayrollData {
 		return true;
 	}
 
-
-      
 	@Override
 	public String toString() {
 		return "EmployeePayrollData [id=" + id + ", name=" + name + ", salary=" + salary + ", startDate=" + startDate

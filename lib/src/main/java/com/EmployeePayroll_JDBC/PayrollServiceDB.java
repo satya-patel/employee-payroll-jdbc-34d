@@ -8,9 +8,11 @@ import java.sql.ResultSet;
 import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.Enumeration;
+import java.util.HashMap;
 import java.sql.SQLException;
 import java.sql.Statement;
 import java.util.List;
+import java.util.Map;
 
 public class PayrollServiceDB {
 	private static PayrollServiceDB employeePayrollServiceDB;
