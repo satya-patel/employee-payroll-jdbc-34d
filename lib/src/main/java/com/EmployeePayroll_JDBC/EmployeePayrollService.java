@@ -46,13 +46,16 @@ public class EmployeePayrollService {
 			throws EmployeePayrollException {
 		return this.payrollServiceDB.performAverageAndMinAndMaxOperations(column, operation);
 	}
-<<<<<<< HEAD
-=======
 
 	public void addEmployeeToPayroll(String name, String gender, double salary, LocalDate startDate)
 			throws EmployeePayrollException {
 		employeePayrollList.add(payrollServiceDB.addEmployeeToPayroll(name, gender, salary, startDate));
 
 	}
->>>>>>> branch6
+
+	public void addingEmployeeToPayroll(String name, String gender, double salary, LocalDate startDate)
+			throws EmployeePayrollException {
+		employeePayrollList.add(payrollServiceDB.addEmployeeToPayroll(name, gender, salary, startDate));
+
+	}
 }
